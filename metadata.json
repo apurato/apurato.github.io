@@ -1,0 +1,6 @@
+{
+  "name": "Apurato",
+  "description": "Gestor completo e offline para Microempreendedores Individuais (MEI): faturamento R$ 81k, DAS, PF x CNPJ, orçamentos, recibos, precificação, DASN/IRPF e backup no Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
