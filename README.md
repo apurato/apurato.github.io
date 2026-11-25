@@ -1,46 +1,132 @@
-# Apurato — Gestão Completa para Microempreendedores Individuais (MEI)
+<div align="center">
 
-Aplicativo Web Progressivo (**PWA**) 100% gratuito, código aberto e offline-first, desenvolvido por **[saulomgg](https://saulomgg.github.io)** para que o MEI organize todo o negócio em um só lugar — direto do navegador ou instalado no celular.
+# APURATO
 
-## Funcionalidades Principais
+### `Gratuito` · `Offline-first` · `Gestão MEI`
 
-### 1. Painel Geral & Radar do Negócio
-- Acompanhamento em tempo real do faturamento anual vs teto **R$ 81.000,00**.
-- Resultado líquido mensal (Receitas - Despesas PJ), status da guia **DAS-MEI (dia 20)** e saldo separado **PJ × PF**.
-- Alertas inteligentes de contas a pagar/receber vencidas, estoque baixo e obrigações pendentes.
+[![App](https://img.shields.io/badge/app-abrir_painel-2563EB?style=for-the-badge)](https://apurato.github.io/)
+[![Site](https://img.shields.io/badge/site-oficial-059669?style=for-the-badge)](https://apurato.github.io/)
+[![Repositório](https://img.shields.io/badge/c%C3%B3digo-fonte-181717?style=for-the-badge&logo=github)](https://github.com/apurato/apurato.github.io)
+[![Apoie](https://img.shields.io/badge/apoie-o_projeto-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)](https://link.mercadopago.com.br/saulomgg)
 
-### 2. Operação Diária (Vendas & Atendimento)
-- **Orçamentos & Recibos com QR Code PIX**: Emissão com itens, desconto, impressão em PDF, texto formatado para WhatsApp e conversão em faturamento com 1 clique.
-- **Clientes & Fornecedores**: Cadastro completo com atalho direto para WhatsApp.
-- **Catálogo & Estoque**: Controle de preços, margens e alerta de estoque mínimo.
-- **Calculadora de Precificação MEI**: Calcula preço sugerido incluindo materiais, hora trabalhada, taxa de cartão/app e rateio do DAS.
+</div>
 
-### 3. Financeiro & Relatório Mensal Oficial
-- **Faturamento R$ 81k**: Registro por categoria (Serviços, Comércio, Indústria, Transporte) com filtro e exportação CSV contábil (faturamento + despesas + DAS).
-- **Relatório Mensal das Receitas Brutas**: Modelo oficial pronto para impressão (com e sem emissão de Nota Fiscal).
-- **Contas a Pagar & Receber**: Controle de vencimentos futuros com baixa automática no caixa.
-- **Contas PF × CNPJ**: Controle separado com transferência rápida de **Pró-Labore (PJ → PF)**.
+---
 
-### 4. Fiscal MEI & Obrigações
-- **Calendário DAS-MEI (12 meses)** com presets por enquadramento (Comércio, Serviços, Misto, Caminhoneiro).
-- **Simulador DASN-SIMEI & IRPF**: Cálculo automático de lucro isento (8%, 16%, 32%), parcela tributável e alerta da regra legal de 80% de compras.
-- **Checklist de Obrigações & Limites Legais**.
-
-### 5. Backup no Google Drive (Apps Script) & Backup Manual
-- Código pronto de **Google Apps Script (`Code.gs`)** com cópia em 1 clique para o usuário salvar e restaurar backups direto na pasta `Apurato_Backups` do próprio Google Drive.
-- **Backup Manual** completo via arquivo JSON e exportação de planilha CSV com histórico de faturamento e despesas.
-
-### 6. PWA Instalável, 4 Temas & Área de Apoio
-- Botão nativo **Instalar App / Baixar App** (`beforeinstallprompt` no Chrome + guia para iOS Safari).
-- 4 temas visuais (**Estúdio Claro**, **Obsidiana Pro**, **Executivo Azul** e **Finanças Verde**).
-- Seção **Apoiar** com links diretos (Mercado Pago, Stripe, Hub de Apps, redes sociais) e **Roadmap Público**.
-
-## Executar e Compilar
+## `> whoami`
 
 ```bash
-npm install
-npm run dev
-npm run build
+$ cat /dev/apurato
+Nome:   Apurato · gestão para MEI
+Foco:   vendas · operação · financeiro · fiscal
+Modo:   PWA instalável · offline-first · backups locais
+Custo:  gratuito · sem mensalidade
 ```
 
-Desenvolvido por **[saulomgg](https://saulomgg.github.io)**.
+O **Apurato** ajuda microempreendedores individuais a organizar a operação do negócio em um só lugar. Registre vendas e despesas, acompanhe o faturamento, prepare orçamentos e recibos e consulte ferramentas de apoio para a rotina do MEI.
+
+O painel é apresentado como um app gratuito e **offline-first**. Você pode usar pelo navegador ou instalar no celular ou computador. A sincronização com o Google Drive é opcional e precisa ser configurada pelo próprio usuário.
+
+---
+
+## `> ls ./recursos`
+
+| Recurso | O que você encontra |
+| --- | --- |
+| 📊 **Painel e Radar do Negócio** | Acompanhamento do faturamento, resultado mensal, DAS, contas em aberto, estoque e obrigações |
+| 🧾 **Vendas e recibos** | Orçamentos e recibos com QR Code PIX, opção de baixar em PDF, imprimir ou compartilhar pelo WhatsApp |
+| 👥 **Clientes e fornecedores** | Cadastro e organização dos contatos do negócio |
+| 🏷️ **Catálogo e estoque** | Produtos e serviços, preços, margens e alertas de estoque mínimo |
+| 🧮 **Calculadora de preços** | Apoio à formação de preço, considerando custos e despesas do negócio |
+| 💰 **Financeiro** | Registro de faturamento por categoria, despesas, contas a pagar e a receber e separação entre PF e CNPJ |
+| 📈 **Relatórios** | Relatório mensal de receitas brutas e exportação de dados financeiros em CSV |
+| 🗓️ **Fiscal MEI** | Calendário DAS-MEI, simulador DASN-SIMEI e IRPF e checklist de obrigações |
+| 💾 **Backup** | Backup completo em JSON, exportação financeira em CSV e sincronização opcional com seu Google Drive |
+| 🎨 **Temas** | Quatro opções de aparência, incluindo temas claro, escuro, azul e verde |
+
+---
+
+## `> cat ./privacidade`
+
+```json
+{
+  "modelo": "offline-first",
+  "backup_local": ["JSON", "CSV"],
+  "google_drive": "opcional, configurado pelo usuário",
+  "modo_demonstracao": "dados de exemplo preenchidos",
+  "instalacao": "PWA no navegador ou dispositivo"
+}
+```
+
+- **Offline-first:** o Apurato foi projetado para priorizar o uso offline. Recursos que acessam serviços externos, como a sincronização com o Drive, precisam de conexão.
+
+- **Backup local:** baixe um backup completo em JSON e importe um arquivo salvo anteriormente. Também é possível exportar faturamento e despesas em CSV.
+
+- **Google Drive opcional:** a sincronização usa Google Apps Script e a conta Google do usuário. É necessário configurar o script e conectar o app antes de enviar ou restaurar backups na nuvem.
+
+- **Dados de demonstração:** o painel pode abrir com informações de exemplo para mostrar os recursos. Use **Limpar Autopreenchimento** antes de começar a registrar os dados reais do seu negócio.
+
+> [!NOTE]
+Faça backups regulares e guarde uma cópia em local seguro. A sincronização com Google Drive depende da configuração da sua conta e de acesso à internet.
+
+---
+
+## `> ./iniciar`
+
+```bash
+1. Acesse   apurato.github.io
+2. Explore  confira o painel de demonstração ou limpe os dados de exemplo
+3. Configure preencha os dados da sua empresa em Ajustes
+4. Instale  use "Instalar App" quando a opção estiver disponível no navegador
+5. Proteja  baixe um backup JSON ou configure o Google Drive opcional
+```
+
+[▶ **Abrir o Apurato**](https://apurato.github.io/)
+
+---
+
+## `> ping apoio`
+
+O Apurato é gratuito. Se ele ajuda na rotina do seu negócio, você pode apoiar voluntariamente o desenvolvimento e as próximas melhorias.
+
+[![Apoie pelo Mercado Pago](https://img.shields.io/badge/%F0%9F%92%9B_Apoie_pelo_Mercado_Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white)](https://link.mercadopago.com.br/saulomgg)
+
+[Roadmap e outros meios de apoio](https://apurato.github.io/)
+
+---
+
+## `> ping links`
+
+| Canal | Link |
+| --- | --- |
+| Apurato · Painel | [apurato.github.io](https://apurato.github.io/) |
+| Repositório | [github.com/apurato/apurato.github.io](https://github.com/apurato/apurato.github.io) |
+| Hub de apps | [saulomgg.github.io](https://saulomgg.github.io/) |
+| Instagram | [@saulo_mgg](https://instagram.com/saulo_mgg) |
+| YouTube | [@saulomgg](https://youtube.com/@saulomgg) |
+| Telegram | [S0M9Net](https://t.me/S0M9Net) |
+| LinkedIn | [saulomgg](https://linkedin.com/in/saulomgg) |
+| Apoio · Mercado Pago | [link.mercadopago.com.br/saulomgg](https://link.mercadopago.com.br/saulomgg) |
+
+---
+
+## `> cat ./LICENSE`
+
+Consulte o arquivo [`LICENSE`](./LICENSE) para os termos de uso e direitos autorais. A licença deste pacote é proprietária e **não** é uma licença open-source permissiva. A página do Apurato atualmente o descreve como “código aberto”; essa descrição precisa ser alinhada à licença antes de apresentar o projeto publicamente como open-source.
+
+---
+
+<div align="center">
+
+Desenvolvido por [**Saulo (saulomgg)**](https://saulomgg.github.io/) · gestão simples para o seu MEI
+
+```
+┌─────────────────────────────────────────────┐
+│  [ SYSTEM ]  Apurato · gestão MEI           │
+│  [ STATUS ]  Gratuito · offline-first       │
+│  [ BACKUP ]  JSON local · CSV · Drive*      │
+│  [ * ]       Google Drive opcional           │
+└─────────────────────────────────────────────┘
+```
+
+</div>
